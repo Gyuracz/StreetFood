@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{main}">
+    <head>
+    </head>
+
+        <!--Második szekció-->
+        <section layout:fragment="mainContent">
+            <div class="container-fluid">
+                <div class="row box">
+                    <div class="col-12 col-lg-4">
+                        <h2>Pizzák</h2>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="pizza: ${pizzas}">
+                                <td th:text="${pizza.name}" id="name"></td>
+                                <td th:text="${pizza.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Hamburgerek</h2>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="hamburger: ${hamburgers}">
+                                <td th:text="${hamburger.name}" id="name"></td>
+                                <td th:text="${hamburger.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Saláták</h2>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="salat: ${salats}">
+                                <td th:text="${salat.name}" id="name"></td>
+                                <td th:text="${salat.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

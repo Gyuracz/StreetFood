@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+        <link rel="stylesheet" href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+        <title>Főoldal</title>
+    </head>
+    <body>
+        <!--Fejléc-->
+        <header>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 logo">
+                            <span style="color: red;">Street</span> <span>food</span>
+                        </div>
+                        <nav class="col-12 col-md-8 menu">
+                            <a href="./index.html" th:href="@{/}">Főoldal</a>
+                            <a href="./etlap.html" th:href="@{/etlap}">Étlap</a>
+                            <a href="./rolunk.html" th:href="@{/rolunk}">Rólunk</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Második szekció-->
+        <section>
+            <div class="container-fluid wallpaper">
+                <div class="row box">
+                    <h2 id="admin">Admin oldal</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--Harmadik szekció-->
+        <section>
+            <div class="container-fluid">
+                <div class="row box">
+                    <div class="col-12 col-lg-4">
+                        <h2>Pizzák</h2>
+                        <form th:action="@{/addpizza}" th:object="${pizza}" method="post">
+                            <input type="text" id="name" class="input" th:field="*{name}" placeholder="Név" required>
+                            <input type="number" id="price" class="input" th:field="*{price}" placeholder="Ár" required>
+                            <input type="submit" id="feliratkozas" value="Feltöltés">
+                        </form>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="pizza: ${pizzas}">
+                                <td th:text="${pizza.name}" id="name"></td>
+                                <td th:text="${pizza.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Hamburgerek</h2>
+                        <form th:action="@{/addhamburger}" th:object="${hamburger}" method="post">
+                            <input type="text" id="name" class="input" th:field="*{name}" placeholder="Név" required>
+                            <input type="number" id="price" class="input" th:field="*{price}" placeholder="Ár" required>
+                            <input type="submit" id="feliratkozas" value="Feltöltés">
+                        </form>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="hamburger: ${hamburgers}">
+                                <td th:text="${hamburger.name}" id="name"></td>
+                                <td th:text="${hamburger.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Saláták</h2>
+                        <form th:action="@{/addsalat}" th:object="${salat}" method="post">
+                            <input type="text" id="name" class="input" th:field="*{name}" placeholder="Név" required>
+                            <input type="number" id="price" class="input" th:field="*{price}" placeholder="Ár" required>
+                            <input type="submit" id="feliratkozas" value="Feltöltés">
+                        </form>
+                        <table>
+                            <tr>
+                                <th>Név</th>
+                                <th>Ár</th>
+                            </tr>
+                            <tr th:each="salat: ${salats}">
+                                <td th:text="${salat.name}" id="name"></td>
+                                <td th:text="${salat.price}" id="price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Negyedik szekció-->
+        <section>
+            <div class="container">
+                <div class="row box">
+                    <div class="col-12" id="subscribers">
+                        <h2>Feliratkozások</h2>
+                        <table>
+                            <tr>
+                                <th>Email cím</th>
+                            </tr>
+                            <tr th:each="subscriber: ${subscribers}">
+                                <td th:text="${subscriber.email}" id="subrow"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

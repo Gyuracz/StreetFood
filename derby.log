@@ -1,0 +1,144 @@
+----------------------------------------------------------------
+Mon May 30 10:24:39 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\68422f29-6d21-464c-b8bb-dec053c635a1 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 10:59:16 CEST 2022:
+Shutting down instance a816c00e-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\68422f29-6d21-464c-b8bb-dec053c635a1 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 10:59:18 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance e50d80a4-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\66714c91-2c07-415a-af1b-181da6beaac2 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:02:19 CEST 2022:
+Shutting down instance e50d80a4-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\66714c91-2c07-415a-af1b-181da6beaac2 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:02:21 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance f7fd413a-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\2b2eebb5-4ac5-414c-a3ab-abcb83076da2 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:02:41 CEST 2022:
+Shutting down instance f7fd413a-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\2b2eebb5-4ac5-414c-a3ab-abcb83076da2 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:02:43 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 60e601d0-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\c61ecb1d-459b-4310-9c7c-10ae309a8d61 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:03:03 CEST 2022:
+Shutting down instance 60e601d0-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\c61ecb1d-459b-4310-9c7c-10ae309a8d61 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:03:06 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 9fc7c266-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\647c189b-b6c0-407c-ad0a-ccab124f8dfd with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:03:15 CEST 2022:
+Shutting down instance 9fc7c266-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\647c189b-b6c0-407c-ad0a-ccab124f8dfd with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:03:17 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 34a282fc-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\02f9d956-0245-4595-829b-ead6bc39619f with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:03:51 CEST 2022:
+Shutting down instance 34a282fc-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\02f9d956-0245-4595-829b-ead6bc39619f with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:03:52 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 9f764392-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\40e1874a-424f-49c0-ab34-1c72fd753702 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:04:35 CEST 2022:
+Shutting down instance 9f764392-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\40e1874a-424f-49c0-ab34-1c72fd753702 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:04:36 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 60430428-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\096ff52c-7ad0-4aa1-b85a-4a18352718e3 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:04:37 CEST 2022:
+Shutting down instance 60430428-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\096ff52c-7ad0-4aa1-b85a-4a18352718e3 with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+----------------------------------------------------------------
+Mon May 30 11:05:00 CEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance f708c4be-0181-1411-2c45-0000070da3f8 
+on database directory memory:D:\Letöltések\streetfood\3b65a989-b280-42b7-a8ee-4fba7f81724a with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=D:\Letöltések\streetfood
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon May 30 11:05:00 CEST 2022:
+Shutting down instance f708c4be-0181-1411-2c45-0000070da3f8 on database directory memory:D:\Letöltések\streetfood\3b65a989-b280-42b7-a8ee-4fba7f81724a with class loader sun.misc.Launcher$ExtClassLoader@49c2faae 

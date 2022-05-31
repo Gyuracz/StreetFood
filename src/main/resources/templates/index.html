@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{main}">
+    <head>
+    </head>
+        <!--Második szekció-->
+        <section layout:fragment="mainContent">
+            <div class="container">
+                <div class="row box">
+                    <div class="col-12 col-lg-4">
+                        <h2>Pizzák</h2>
+                        <img class="img-thumbnail" src="../static/images/pizza.jpg" th:src="@{/images/pizza.jpg}">
+                        <br>
+                        <a class="tovabb" href="./etlap.html" th:href="@{/etlap}">Tovább</a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Hamburgerek</h2>
+                        <img class="img-thumbnail" src="../static/images/hamburger.jpg" th:src="@{/images/hamburger.jpg}">
+                        <br>
+                        <a class="tovabb" href="./etlap.html" th:href="@{/etlap}">Tovább</a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h2>Saláták</h2>
+                        <img class="img-thumbnail" src="../static/images/salata.jpg" th:src="@{/images/salata.jpg}">
+                        <br>
+                        <a class="tovabb" href="./etlap.html" th:href="@{/etlap}">Tovább</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

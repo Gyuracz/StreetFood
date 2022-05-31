@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+        <link rel="stylesheet" href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+        <title>Főoldal</title>
+    </head>
+    <body>
+        <!--Fejléc-->
+        <header>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 logo">
+                            <span style="color: red;">Street</span> <span>food</span>
+                        </div>
+                        <nav class="col-12 col-md-8 menu">
+                            <a href="./index.html" th:href="@{/}">Főoldal</a>
+                            <a href="./etlap.html" th:href="@{/etlap}">Étlap</a>
+                            <a href="./rolunk.html" th:href="@{/rolunk}">Rólunk</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Első szekció-->
+        <section>
+            <div class="container-fluid wallpaper">
+                <h1>Köszöntjük weboldalunkon!</h1>
+                <form th:action="@{/subproc}" th:object="${subscriber}" method="post">
+                    <input  id="input" class="input" type="email" name="emailCim" th:field="*{email}" placeholder="E-mail" required>
+                    <input id="feliratkozas" type="submit" value="Feliratkozás">
+                </form>
+            </div>
+        </section>
+
+        <!--Második szekció-->
+        <section layout:fragment="mainContent">
+        </section>
+        
+        <!--Lábléc-->
+        <footer>
+            <div class="container-fluid lablec">
+                Copyright @ <span id="datum"></span>
+                <br>
+                Készítette: Gyurácz Olivér
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById("datum").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>

@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -47,30 +44,6 @@ public class HomeService {
     public void setSalatRepository(SalatRepository s){
         this.salatRepository = s;
     }
-
-    // @Value("${spring.mail.username}")
-    // private String MESSAGE_FROM;
-
-    // JavaMailSender javaMailSender;
-
-    // @Autowired
-    // public void setJavaMailSender(JavaMailSender j){
-    //     this.javaMailSender = j;
-    // }
-
-    // public void sendMessage(String email){
-    //     SimpleMailMessage message = null;
-    //     try{
-    //         message = new SimpleMailMessage();          
-    //         message.setFrom(MESSAGE_FROM);
-    //         message.setTo(email);
-    //         message.setSubject("StreetFood hírlevél");
-    //         message.setText("Köszönjük, hogy feliratkoztál a StreetFood hírleveleire! Garantáltan nem fogod kihagyni a legjobb ajánlatainkat!");
-    //         javaMailSender.send(message);
-    //     }catch(Exception e){
-    //         System.out.println("Nem sikerült elküldeni az üzenetet! " + e);
-    //     }
-    // }
     
     public void subscribe(Subscriber sub){
         subscriberRepository.save(sub);
